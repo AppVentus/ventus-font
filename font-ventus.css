@@ -1,0 +1,214 @@
+/** 
+ * https://appventus.com/data/cdn/fonts/ventus/index.html
+ * https://appventus.com/data/cdn/fonts/ventus/ventus-font.css
+ *
+ */
+@charset "UTF-8";
+@font-face {
+  font-family: "ventusfont";
+  src:url("fonts/ventusfont.eot");
+  src:url("fonts/ventusfont.eot?#iefix") format("embedded-opentype"),
+    url("fonts/ventusfont.woff") format("woff"),
+    url("fonts/ventusfont.ttf") format("truetype"),
+    url("fonts/ventusfont.svg#ventusfont") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "ventusfont" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="av-"]:before,
+[class*=" av-"]:before {
+  font-family: "ventusfont" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.av-2x:before {
+    font-size: 20px;
+}
+.av-3x:before {
+    font-size: 30px;
+}
+.av-4x:before {
+    font-size: 40px;
+}
+.av-5x:before {
+    font-size: 50px;
+}
+.av-6x:before {
+    font-size: 60px;
+}
+.av-7x:before {
+    font-size: 70px;
+}
+.av-8x:before {
+    font-size: 80px;
+}
+.av-9x:before {
+    font-size: 90px;
+}
+.av-10x:before {
+    font-size: 100px;
+}
+.av-a:before {
+  content: "a";
+}
+.av-b:before {
+  content: "b";
+}
+.av-behance:before {
+  content: "c";
+}
+.av-box:before {
+  content: "d";
+}
+.av-arrow-down:before {
+  content: "e";
+}
+.av-chevron-down:before {
+  content: "f";
+}
+.av-facebook:before {
+  content: "g";
+}
+.av-github:before {
+  content: "h";
+}
+.av-menu:before {
+  content: "i";
+}
+.av-arrow-left:before {
+  content: "j";
+}
+.av-chevron-left:before {
+  content: "k";
+}
+.av-mail:before {
+  content: "l";
+}
+.av-linkedin:before {
+  content: "m";
+}
+.av-load:before {
+  content: "n";
+}
+.av-appventus:before {
+  content: "o";
+}
+.av-atlassian:before {
+  content: "p";
+}
+.av-bamboo:before {
+  content: "q";
+}
+.av-bitbucket:before {
+  content: "r";
+}
+.av-bootstrap:before {
+  content: "s";
+}
+.av-confluence:before {
+  content: "t";
+}
+.av-crucible:before {
+  content: "u";
+}
+.av-fisheye:before {
+  content: "v";
+}
+.av-jira:before {
+  content: "w";
+}
+.av-magento:before {
+  content: "x";
+}
+.av-nodejs:before {
+  content: "y";
+}
+.av-phonegap:before {
+  content: "z";
+}
+.av-prestashop:before {
+  content: "A";
+}
+.av-stash:before {
+  content: "B";
+}
+.av-sylius:before {
+  content: "C";
+}
+.av-symfony:before {
+  content: "D";
+}
+.av-victoire:before {
+  content: "E";
+}
+.av-wordpress:before {
+  content: "F";
+}
+.av-mouse:before {
+  content: "G";
+}
+.av-mouse-wire:before {
+  content: "H";
+}
+.av-paper-plane:before {
+  content: "I";
+}
+.av-phone:before {
+  content: "J";
+}
+.av-pictures:before {
+  content: "K";
+}
+.av-play:before {
+  content: "L";
+}
+.av-arrow-right:before {
+  content: "M";
+}
+.av-chevron-right:before {
+  content: "N";
+}
+.av-rss:before {
+  content: "O";
+}
+.av-check:before {
+  content: "P";
+}
+.av-trash:before {
+  content: "Q";
+}
+.av-twitter:before {
+  content: "R";
+}
+.av-arrow-up:before {
+  content: "S";
+}
+.av-chevron-up:before {
+  content: "T";
+}
+.av-close:before {
+  content: "U";
+}
+.av-plus:before {
+  content: "V";
+}
